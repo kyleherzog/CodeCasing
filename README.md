@@ -2,6 +2,9 @@
 
 [![Build status](https://ci.appveyor.com/api/projects/status/gpfoxsf6cbvgwh05?svg=true)](https://ci.appveyor.com/project/kyleherzog/codecasing)
 
+This library is available from [NuGet.org](https://www.nuget.org/packages/CodeCasing/)
+or download from the [CI build feed](https://ci.appveyor.com/nuget/CodeCasing).
+
 --------------------------
 
 Portable class library that converts string identifiers to various code casing styles
