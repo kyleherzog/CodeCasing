@@ -9,6 +9,7 @@
     <PackageTags>Extensions Code Casing Convert Pascal Hungarian</PackageTags>
     <RepositoryUrl>https://github.com/kyleherzog/CodeCasing</RepositoryUrl>
     <GeneratePackageOnBuild>false</GeneratePackageOnBuild>
+    <Authors>Kyle Herzog</Authors>
   </PropertyGroup>
 
 </Project>
