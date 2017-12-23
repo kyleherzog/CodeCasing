@@ -3,10 +3,13 @@
   <PropertyGroup>
     <TargetFramework>netstandard1.0</TargetFramework>
     <GenerateAssemblyInfo>false</GenerateAssemblyInfo>
+    <PackageVersion>2.0.0</PackageVersion>
     <PackageLicenseUrl>https://raw.githubusercontent.com/kyleherzog/CodeCasing/master/LICENSE</PackageLicenseUrl>
     <PackageProjectUrl>https://github.com/kyleherzog/CodeCasing</PackageProjectUrl>
     <PackageTags>Extensions Code Casing Convert Pascal Hungarian</PackageTags>
     <RepositoryUrl>https://github.com/kyleherzog/CodeCasing</RepositoryUrl>
+    <GeneratePackageOnBuild>false</GeneratePackageOnBuild>
+    <Authors>Kyle Herzog</Authors>
   </PropertyGroup>
 
 </Project>

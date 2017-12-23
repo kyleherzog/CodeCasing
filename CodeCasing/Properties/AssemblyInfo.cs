@@ -7,7 +7,7 @@ using System.Resources;
 [assembly: AssemblyTitle("CodeCasing")]
 [assembly: AssemblyDescription(".NET standard class library to convert string identifiers to various code casing styles")]
 [assembly: AssemblyConfiguration("")]
-[assembly: AssemblyCompany("Kyle Herzog")]
+[assembly: AssemblyCompany("")]
 [assembly: AssemblyProduct("CodeCasing")]
 [assembly: AssemblyCopyright("Copyright ©  2017")]
 [assembly: AssemblyTrademark("")]
