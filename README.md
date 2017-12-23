@@ -7,7 +7,7 @@ or download from the [CI build feed](https://ci.appveyor.com/nuget/CodeCasing).
 
 --------------------------
 
-Portable class library that converts string identifiers to various code casing styles
+.NET Standard class library that converts string identifiers to various code casing styles
 
 See the [changelog](CHANGELOG.md) for changes and roadmap.
 
