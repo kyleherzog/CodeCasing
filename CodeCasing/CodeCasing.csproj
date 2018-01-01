@@ -10,6 +10,7 @@
     <RepositoryUrl>https://github.com/kyleherzog/CodeCasing</RepositoryUrl>
     <GeneratePackageOnBuild>false</GeneratePackageOnBuild>
     <Authors>Kyle Herzog</Authors>
+    <Description>.NET standard class library to convert string identifiers to various code casing styles</Description>
   </PropertyGroup>
 
 </Project>
