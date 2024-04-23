@@ -9,7 +9,6 @@
       <ApplicationVersion>3.0</ApplicationVersion>
       <ApplicationRevision>0</ApplicationRevision>
       <Version>3.0</Version>
-      <PackageLicenseUrl>https://raw.githubusercontent.com/kyleherzog/CodeCasing/master/LICENSE</PackageLicenseUrl>
       <PackageProjectUrl>https://github.com/kyleherzog/CodeCasing</PackageProjectUrl>
       <RepositoryUrl>https://github.com/kyleherzog/CodeCasing</RepositoryUrl>
       <PackageTags>Extensions Code Casing Convert Pascal Hungarian</PackageTags>
