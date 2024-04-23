@@ -1,46 +1,28 @@
 ﻿using System;
 
-namespace CodeCasing
+namespace CodeCasing;
+
+public static class CasingConverter
 {
-    public static class CasingConverter
+    public static string Convert(string source, CasingStyle targetStyle)
     {
-        public static string Convert(string source, CasingStyle targetStyle)
+        if (source == null)
         {
-            if (source == null)
-                throw new ArgumentNullException("source");
-
-            switch (targetStyle)
-            {
-                case CasingStyle.None:
-                    return source;
-
-                case CasingStyle.Title:
-                    return source.ExpandToTitleCase();
-
-                case CasingStyle.Sentence:
-                    return source.ExpandToSentenceCase();
-
-                case CasingStyle.Hungarian:
-                    return source.ToHungarianCase();
-
-                case CasingStyle.Pascal:
-                    return source.ToPascalCase();
-
-                case CasingStyle.Snake:
-                    return source.ToSnakeCase();
-
-                case CasingStyle.ScreamingSnake:
-                    return source.ToScreamingSnakeCase();
-
-                case CasingStyle.Spinal:
-                    return source.ToSpinalCase();
-
-                case CasingStyle.Train:
-                    return source.ToTrainCase();
-
-                default:
-                    throw new ArgumentOutOfRangeException("targetStyle");
-            }
+            throw new ArgumentNullException(nameof(source));
         }
+
+        return targetStyle switch
+        {
+            CasingStyle.None => source,
+            CasingStyle.Title => source.ExpandToTitleCase(),
+            CasingStyle.Sentence => source.ExpandToSentenceCase(),
+            CasingStyle.Hungarian => source.ToHungarianCase(),
+            CasingStyle.Pascal => source.ToPascalCase(),
+            CasingStyle.Snake => source.ToSnakeCase(),
+            CasingStyle.ScreamingSnake => source.ToScreamingSnakeCase(),
+            CasingStyle.Spinal => source.ToSpinalCase(),
+            CasingStyle.Train => source.ToTrainCase(),
+            _ => throw new ArgumentOutOfRangeException(nameof(targetStyle)),
+        };
     }
 }
