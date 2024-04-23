@@ -1,11 +1,13 @@
-# Roadmap
-- [ ] ??? open to suggestions
-
-
 # Changelog
 
 These are the changes to each version that has been released
 on NuGet.org.
+
+## 3.0
+**2024-04-23**
+
+- [x] Added .NET Standard 2.0 support
+- [x] Added `ToCamelCase`, `ToKebabCase`, `ToMacroCase`, `ToFlatCase`, `ToCobolCase` extension methods
 
 ## 2.0
 
