@@ -3,6 +3,10 @@
 These are the changes to each version that has been released
 on NuGet.org.
 
+## 4.0
+**2024-11-29**
+- [x] Dropped .NET Standard 1.0 support
+
 ## 3.0
 **2024-04-23**
 
