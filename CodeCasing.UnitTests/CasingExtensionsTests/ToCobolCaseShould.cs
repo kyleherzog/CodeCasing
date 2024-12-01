@@ -1,4 +1,4 @@
-﻿namespace CodeCasing.UnitTests;
+﻿namespace CodeCasing.UnitTests.CasingExtensionsTests;
 
 [TestClass]
 public class ToCobolCaseShould
